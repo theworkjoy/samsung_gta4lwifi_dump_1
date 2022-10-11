@@ -1,0 +1,49 @@
+{
+  "itemConfig": [
+    {
+      "showName": "VersionInfo"
+    },
+    {
+      "showName": "KeyPad"
+    },
+    {
+      "showName": "OTG",
+      "paramconfig": {
+        "is_show_storage": true,
+        "support_typec": false
+      }
+    },
+    {
+      "showName": "TouchPal"
+    },
+    {
+      "showName": "GPS"
+    },
+    {
+      "showName": "MainSIMCard",
+      "support_background_test": true
+    },
+
+    {
+      "showName": "SdCard"
+    },
+    {
+      "showName": "Battery",
+      "paramconfig": {
+        "support_afc_charge": true,
+        "support_typec_check": true
+      }
+    },
+    {
+      "showName": "Sar"
+    },
+    {
+      "showName": "Magnetic",
+      "paramconfig": {
+        "support_self_test": true,
+        "support_disk": false,
+        "support_draw": false
+      }
+    }
+  ]
+}

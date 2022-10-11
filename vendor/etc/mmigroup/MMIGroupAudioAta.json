@@ -1,0 +1,76 @@
+{
+  "itemConfig": [
+    {
+      "showName": "Speaker1",
+      "paramconfig": {
+        "is_show_list": false,
+        "isPlayOnce": true,
+        "music_file": "/vendor/etc/mmigroup/spk.wav"
+      }
+    },
+    {
+      "showName": "Speaker2",
+      "paramconfig": {
+        "is_show_list": false,
+        "isPlayOnce": true,
+        "music_file": "/vendor/etc/mmigroup/spk.wav"
+      }
+    },
+    {
+      "showName": "Speaker3",
+      "paramconfig": {
+        "is_show_list": false,
+        "isPlayOnce": true,
+        "music_file": "/vendor/etc/mmigroup/spk.wav"
+      }
+    },
+    {
+      "showName": "Speaker4",
+      "paramconfig": {
+        "is_show_list": false,
+        "isPlayOnce": true,
+        "music_file": "/vendor/etc/mmigroup/spk.wav"
+      }
+    },
+    {
+      "showName": "MainMic",
+      "paramconfig": {
+        "audioConfig": [
+          "mmitest=on;inputdevice=mainmic_ata"
+        ]
+      }
+    },
+    {
+      "showName": "SubMic",
+      "paramconfig": {
+        "audioConfig": [
+          "mmitest=on;inputdevice=submic_ata"
+        ]
+      }
+    },
+    {
+      "showName": "MainMicToHeadPhone",
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "support": true,
+      "paramconfig": {
+        "volume_rate": 0.5,
+        "hasHeadPhone": true,
+        "audioConfig": [
+          "mmitest=on;loopline=mainmic_headphone"
+        ]
+      }
+    },
+    {
+      "showName": "HsMicToHeadPhone",
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "support": true,
+      "paramconfig": {
+        "volume_rate": 0.5,
+        "hasHeadPhone": true,
+        "audioConfig": [
+          "mmitest=on;loopline=hsmic_headphone"
+        ]
+      }
+    }
+  ]
+}

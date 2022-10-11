@@ -1,0 +1,8 @@
+#
+# In case of Qcom, disable modules related with tetheroffload in wifi only model
+#
+service vendor.ipacm /vendor/bin/ipacm-dummy
+    override
+
+service vendor.ipacm-diag /vendor/bin/ipacm-diag-dummy
+    override

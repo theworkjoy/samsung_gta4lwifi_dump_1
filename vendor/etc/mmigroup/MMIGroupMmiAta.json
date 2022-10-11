@@ -1,0 +1,134 @@
+{
+  "itemConfig": [
+    {
+      "showName": "VersionInfo",
+      "action": "com.mmigroup.action.FACTORYVERSION",
+      "support": true,
+      "paramconfig": {
+        "return_adb_broadcast_result": true
+      }
+    },
+    {
+      "showName": "FM",
+      "support_background_test": false,
+      "background_Service": "com.factory.mmigroup.audioitem.FMBackgroundService",
+      "paramconfig": {
+        "return_adb_broadcast_result": true,
+        "volume_rate": 0.5
+      }
+    },
+    {
+      "showName": "Backlight",
+      "action": "com.mmigroup.action.BACKLIGHT",
+      "support": true,
+      "paramconfig": {
+        "brightness": [
+          1,
+          255
+        ]
+      }
+    },
+    {
+      "showName": "TpOpenShort",
+      "action": "com.mmigroup.action.TPOPENSHORT",
+      "support": true,
+      "paramconfig": {
+        "return_adb_broadcast_result": true
+      }
+    },
+    {
+      "showName": "Gyroscope",
+      "paramconfig": {
+        "support_calibrate": false,
+        "support_test": true,
+        "is_auto_calibrate": false,
+        "return_adb_broadcast_result": true
+      }
+    },
+    {
+      "showName": "Accelerometer_C",
+      "paramconfig": {
+        "support_calibrate": true,
+        "support_axialresult": false,
+        "support_angle45": false,
+        "support_angleneg45": false,
+        "data_suffix_rate": 1000,
+        "gravity_45_degree_x": -4.9000,
+        "gravity_45_degree_y": 4.9000,
+        "gravity_45_degree_z": 6.9340,
+        "gravity_45_degree_tolerance": 0.71,
+        "gravity_axial_limit": 1.5,
+        "is_auto_calibrate": true,
+        "return_adb_broadcast_result": true
+      }
+    },
+    {
+      "showName": "Sar",
+      "paramconfig": {
+        "return_adb_broadcast_result": true
+      }
+    },
+    {
+      "showName": "TouchPal",
+      "action": "com.mmigroup.action.TOUCHPAL",
+      "support": true,
+      "paramconfig": {
+        "return_adb_broadcast_result": true
+      }
+    },
+    {
+      "showName": "Hall",
+      "paramconfig": {
+        "return_adb_broadcast_result": true
+      }
+    },
+    {
+      "showName": "MainCamera",
+      "action": "com.mmigroup.action.MAINCAMERA",
+      "support": true,
+      "paramconfig": {
+        "cameraId": 0,
+        "picture_dir": "sdcard/fac_sources/Camera/",
+        "picture_name": "BackATA.jpg",
+        "auto_takepicture_delay": 2000,
+        "takepicture_not_save_picture": false,
+        "support_takepicture": true,
+        "auto_takepicture": true,
+        "is_open_flashLight": false,
+	"return_adb_broadcast_result": true,
+        "support_cameraCheck": true
+      }
+    },
+    {
+      "showName": "FrontCamera",
+      "action": "com.mmigroup.action.MAINCAMERA",
+      "support": true,
+      "paramconfig": {
+        "cameraId": 1,
+        "picture_dir": "sdcard/fac_sources/Camera/",
+        "picture_name": "FrontATA.jpg",
+        "auto_takepicture_delay": 2000,
+        "takepicture_not_save_picture": false,
+        "support_takepicture": true,
+        "auto_takepicture": true,
+        "is_open_flashLight": false,
+	"return_adb_broadcast_result": true,
+        "support_cameraCheck": true
+      }
+    },
+    {
+      "showName": "Hall",
+      "support": true,
+      "action": "com.mmigroup.action.HALL",
+      "paramconfig": {
+        "device_id": 1,
+	"return_adb_broadcast_result": true,
+        "hall_sensor_type": 65600
+      },
+      "requestComm": [
+        "Hall"
+      ]
+    }
+
+  ]
+}

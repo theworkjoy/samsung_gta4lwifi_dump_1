@@ -1,0 +1,125 @@
+{
+  "itemConfig": [
+    {
+      "showName": "VersionInfo"
+    },
+    {
+      "showName": "KeyPad"
+    },
+    {
+      "showName": "LCD"
+    },
+    {
+      "showName": "Backlight"
+    },
+    {
+      "showName": "MainCamera"
+    },
+    {
+      "showName": "FrontCamera"
+    },
+    {
+      "showName": "SMARTPA"
+    },
+    {
+      "showName": "Speaker1"
+    },
+    {
+      "showName": "Speaker2"
+    },
+    {
+      "showName": "Speaker3"
+    },
+    {
+      "showName": "Speaker4"
+    },
+    {
+      "showName": "MainMicToSpeaker",
+      "paramconfig": {
+        "loop_type": "manual_loop1"
+      }
+    },
+    {
+      "showName": "HeadSet",
+      "paramconfig": {
+        "keyCode": [
+          "HEADSETHOOK"
+        ]
+      }
+    },
+    {
+      "showName": "HsMicToHeadPhone",
+      "paramconfig": {
+        "needHeadsetUnPlug": true
+      }
+    },
+    {
+      "showName": "FM"
+    },
+    {
+      "showName": "TouchPal"
+    },
+    {
+      "showName": "TpOpenShort"
+    },
+    {
+      "showName": "Battery"
+    },
+    {
+      "showName": "SdCard"
+    },
+    {
+      "showName": "MainSIMCard"
+    },
+    {
+      "showName": "Wlan"
+    },
+    {
+      "showName": "Bluetooth"
+    },
+    {
+      "showName": "GPS"
+    },
+    {
+      "showName": "OTG",
+      "paramconfig": {
+        "support_typec": false
+      }
+    },
+    {
+      "showName": "Accelerometer",
+      "paramconfig": {
+        "support_calibrate": true,
+        "support_axialresult": true,
+        "support_angle45": true,
+        "support_angleneg45": true,
+        "is_auto_calibrate": false
+      }
+    },
+    {
+      "showName": "Hall"
+    },
+    {
+      "showName": "Optical"
+    },
+    {
+      "showName": "Gyroscope",
+      "paramconfig": {
+        "support_calibrate": false,
+        "support_test": true,
+        "is_auto_calibrate": false
+      }
+    },
+    {
+      "showName": "Magnetic",
+      "paramconfig": {
+        "support_self_test": true,
+        "support_disk": false,
+        "support_draw": false
+      }
+    },
+    {
+      "showName": "Sar"
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "systemConfig": {
+  "SW_Ver": false,
+  "SS_ver": true
+  },
+  "itemConfig": [
+    {
+      "showName": "VersionInfo",
+      "paramconfig": {
+        "AddInfo": {
+          "CPUID": "any",
+          "TP": "any",
+          "RPMB": "any",
+          "CameraInfo": "any",
+          "BuildNumber": "any",
+          "BaseBandVersion": "any",
+          "KernelVersion": "any",
+          "LCM": "any",
+          "verifiedbootstate": "green",
+          "System_Verity": "yes"
+        }
+      },
+      "P85946DA1": {
+        "paramconfig": {
+          "AddInfo": {
+            "CPUID": "any",
+            "TP": "any",
+            "RPMB": "any",
+            "CameraInfo": "any",
+            "BuildNumber": "any",
+            "KernelVersion": "any",
+            "LCM": "any",
+            "verifiedbootstate": "green",
+            "System_Verity": "yes"
+          }
+        }
+      },
+      "P85943DA1": {
+        "paramconfig": {
+          "AddInfo": {
+            "CPUID": "any",
+            "TP": "any",
+            "RPMB": "any",
+            "CameraInfo": "any",
+            "BuildNumber": "any",
+            "KernelVersion": "any",
+            "LCM": "any",
+            "verifiedbootstate": "green",
+            "System_Verity": "yes"
+          }
+        }
+      },
+      "P85943IA1": {
+        "paramconfig": {
+          "AddInfo": {
+            "CPUID": "any",
+            "TP": "any",
+            "RPMB": "any",
+            "CameraInfo": "any",
+            "BuildNumber": "any",
+            "KernelVersion": "any",
+            "LCM": "any",
+            "verifiedbootstate": "green",
+            "System_Verity": "yes"
+          }
+        }
+      }
+    },
+    {
+      "showName": "SMARTPA"
+    },
+    {
+      "showName": "MainCamera",
+      "paramconfig": {
+        "outputsize": "1280x960"
+      }
+    },
+    {
+      "showName": "Speaker1"
+    },
+    {
+      "showName": "FrontCamera"
+    },
+    {
+      "showName": "Speaker2"
+    },
+    {
+      "showName": "LCD",
+      "paramconfig": {
+        "first_three_delay": 2000
+      }
+    },
+    {
+      "showName": "Speaker3"
+    },
+    {
+      "showName": "Backlight"
+    },
+    {
+      "showName": "Speaker4"
+    },
+    {
+      "showName": "KeyPad",
+      "paramconfig": {
+        "keyCode": [
+          "VOLUME_UP",
+          "VOLUME_DOWN"
+        ]
+      }
+    },
+    {
+      "showName": "MainCamera2"
+    },
+    {
+      "showName": "PlatCameraZoom"
+    },
+    {
+      "showName": "WideCamera"
+    },
+    {
+      "showName": "MacroCamera"
+    },
+    {
+      "showName": "MainMicToSpeaker"
+    },
+    {
+      "showName": "Battery"
+    },
+    {
+      "showName": "Battery5V"
+    },
+    {
+      "showName": "Receiver"
+    },
+    {
+      "showName": "HeadSet",
+      "paramconfig": {
+        "keyCode": [
+          "HEADSETHOOK"
+        ]
+      }
+    },
+    {
+      "showName": "HsMicToHeadPhone"
+    },
+    {
+      "showName": "FM"
+    },
+    {
+      "showName": "TouchPal"
+    },
+    {
+      "showName": "TpOpenShort"
+    },
+    {
+      "showName": "SubMicToSpeaker"
+    },
+    {
+      "showName": "SdCard"
+    },
+    {
+      "showName": "MainSIMCard"
+    },
+    {
+      "showName": "Wlan"
+    },
+    {
+      "showName": "Bluetooth"
+    },
+    {
+      "showName": "GPS"
+    },
+    {
+      "showName": "OTG"
+    },
+    {
+      "showName": "Accelerometer",
+      "paramconfig": {
+        "support_calibrate": false,
+        "support_axialresult": true,
+        "support_angle45": true,
+        "support_angleneg45": true,
+        "is_auto_calibrate": false,
+        "support_plus_or_minus_45_degrees_either_pass_through": false,
+        "autoTest": {
+          "support_calibrate": false
+        }
+      }
+    },
+    {
+      "showName": "Hall"
+    },
+    {
+      "showName": "Optical"
+    },
+    {
+      "showName": "Gyroscope",
+      "paramconfig": {
+        "support_calibrate": false,
+        "support_test": true,
+        "is_auto_calibrate": false
+      }
+    },
+    {
+      "showName": "Magnetic",
+      "paramconfig": {
+        "support_self_test": true,
+        "support_disk": false,
+        "support_draw": false
+      }
+    },
+    {
+      "showName": "Sar"
+    }
+  ]
+}

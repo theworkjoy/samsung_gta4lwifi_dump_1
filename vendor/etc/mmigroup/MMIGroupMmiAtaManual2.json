@@ -1,0 +1,25 @@
+{
+  "itemConfig": [
+    {
+      "showName": "VersionInfo"
+    },
+    {
+      "showName": "Battery",
+      "paramconfig": {
+        "support_afc_charge": true,
+        "support_typec_check": true
+      }
+    },
+    {
+      "showName": "Sar"
+    },
+    {
+      "showName": "Magnetic",
+      "paramconfig": {
+        "support_self_test": true,
+        "support_disk": false,
+        "support_draw": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+logVerboseMask=0x0
+logInfoMask=0x80
+overrideLogLevels=0x17
+logConfigMask=0x80
+logWarningMask=0x80
+enableMCTF = FALSE
+numPCRsBeforeStreamOn=0
+maxHalRequests=7
+numberOfCHIThreads=12

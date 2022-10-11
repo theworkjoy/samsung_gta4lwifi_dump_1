@@ -1,0 +1,50 @@
+{
+  "Hints": [
+    {
+      "Hint": "AMS_APP_LAUNCH",
+      "Duration": "4000",
+      "ResoureList": [
+        {
+          "Resource": "CPUMinFreq",
+          "Value": "100#"
+        },
+        {
+            "Resource" : "KERNEL_APP_START_NOTIFY",
+            "Value" : "1"
+        }
+      ]
+    },
+    {
+      "Hint": "AMS_APP_LAUNCH_M",
+      "Duration": "4000",
+      "ResoureList": [
+        {
+          "Resource": "CPUMinFreq",
+          "Value": "100#"
+        },
+        {
+            "Resource" : "KERNEL_APP_START_NOTIFY",
+            "Value" : "1"
+        }
+      ]
+    },
+    {
+      "Hint": "AMS_APP_LAUNCH_LM",
+      "ResoureList": [
+        {
+            "Resource" : "KERNEL_APP_START_NOTIFY",
+            "Value" : "1"
+        }
+      ]
+    },
+    {
+      "Hint": "APP_LAUNCH",
+      "ResoureList": [
+        {
+            "Resource" : "KERNEL_APP_START_NOTIFY",
+            "Value" : "1"
+        }
+      ]
+    }
+  ]
+}
