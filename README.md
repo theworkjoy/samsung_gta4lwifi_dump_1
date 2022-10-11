@@ -1,0 +1,14 @@
+# gta4lwifixx-user 12 SP1A.210812.016 T500XXU3CVG4 release-keys
+- manufacturer: samsung
+- platform: bengal
+- codename: gta4lwifi
+- flavor: gta4lwifixx-user
+- release: 12
+- id: SP1A.210812.016
+- incremental: T500XXU3CVG4
+- tags: release-keys
+- fingerprint: samsung/gta4lwifixx/gta4lwifi:11/RP1A.200720.012/T500XXU3CVG4:user/release-keys
+- is_ab: false
+- brand: samsung
+- branch: gta4lwifixx-user-12-SP1A.210812.016-T500XXU3CVG4-release-keys
+- repo: samsung_gta4lwifi_dump
