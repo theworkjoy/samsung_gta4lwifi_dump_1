@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<VERSION value="20220308"/>
+<LIST>
+    <package value="com.sec.android.app.myfiles">
+        <CERT name="ALL"/>
+    </package>    <package value="com.sec.android.app.sbrowser">        <CERT name="ALL"/>    </package>    <package value="com.android.chrome">        <CERT name="ALL"/>    </package>
+</LIST>

@@ -1,0 +1,16 @@
+# Copyright (C) 2012 The Android Open Source Project
+#
+# IMPORTANT: Do not create world writable files or directories.
+# This is a common source of Android security bugs.
+#
+# In case of Qcom modem in wifi only model
+#
+
+#
+# In case of Qcom modem is used for calibration in wifi only model
+#
+service sec_diag_uart_log /system/bin/sec_diag_uart_log
+    class main
+    user root
+    group radio oem_2901 system
+    oneshot

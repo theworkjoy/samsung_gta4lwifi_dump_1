@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<VERSION value="20220511"/>
+<LIST>
+    <TARGET value="SM-A325N">
+        <DEVICE name="NA"/>
+    </TARGET>
+</LIST>

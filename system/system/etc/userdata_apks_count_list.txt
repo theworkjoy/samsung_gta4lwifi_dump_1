@@ -1,0 +1,16 @@
+/data/app/SamsungFlowSTUB_Removable/SamsungFlowSTUB_Removable.apk
+/data/app/KidsHome/KidsHome.apk
+/data/app/Drive/Drive.apk
+/data/app/MSOutlook_Samsung/MSOutlook_Samsung.apk
+/data/app/Photos/Photos.apk
+/data/app/OfficeMobile_SamsungStub/OfficeMobile_SamsungStub.apk
+/data/app/Duo/Duo.apk
+/data/app/Spotify/Spotify.apk
+/data/app/Videos/Videos.apk
+/data/app/SamsungDotCom/SamsungDotCom.apk
+/data/app/YTMusic/YTMusic.apk
+/data/app/Notes40_Removable/Notes40_Removable.apk
+/data/app/SBrowser_16.0_Removable/SBrowser_16.0_Removable.apk
+/data/app/SecCalculator_R/SecCalculator_R.apk
+/data/app/VoiceNote_5.0/VoiceNote_5.0.apk
+/data/app/SamsungMembers/SamsungMembers.apk

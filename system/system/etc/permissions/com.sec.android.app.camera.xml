@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.sec.android.app.camera">
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+        <!--    +bug 537021,zhuqingsong.wt,modify,2022/01/25,add new phone state permission-->
+        <permission name="android.permission.READ_PHONE_STATE"/>
+        <permission name="android.permission.READ_PRECISE_PHONE_STATE"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <!--    -bug 537021,zhuqingsong.wt,modify,2022/01/25,add new phone state permission-->
+        <!--    + ExtB P220114-03932,zhuqingsong.wt,modify,2022/02/17,add status bar permission-->
+        <permission name="android.permission.STATUS_BAR"/>
+        <!--    - ExtB P220114-03932,zhuqingsong.wt,modify,2022/02/17,add status bar permission-->
+        <!-- +EXTB,P220331-04420,youran.wt,MODIFY,20220413,Modify QrCode ConnectWifi issue -->
+        <permission name="android.permission.NETWORK_SETTINGS" />
+        <!-- -EXTB,P220331-04420,youran.wt,MODIFY,20220413,Modify QrCode ConnectWifi issue -->
+    </privapp-permissions>
+</permissions>
